@@ -1,0 +1,38 @@
+.single-product {
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.single-product img {
+    width: 100%;
+    height: auto;
+}
+
+.single-product button {
+    background-color: #FFE0B3;
+    color: #000;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+.single-product button:hover {
+    background-color: #F2C94C;
+    color: #000;
+    cursor: pointer;
+}
+
+.product-info {
+    padding: 0 20px;
+}
+
+.product-info p {
+    padding: 5px 0 0 0;
+}
